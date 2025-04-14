@@ -1,0 +1,168 @@
+/* Global Styles */
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body 
+{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #d7e7f2;
+}
+
+h1 
+{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #28587B; /* heading color */
+}
+
+
+p 
+{
+  margin-bottom: 20px;
+}
+
+a 
+{
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover 
+{
+  color: #23527c;
+}
+
+/* Form Styles */
+
+form 
+{
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label 
+{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.radio-group 
+{
+  display: flex;
+  align-items: center;
+}
+
+.radio-group input[type="radio"] 
+{
+  margin: 0 2px;
+}
+
+.radio-group label 
+{
+  margin: 0 30px 0 0;
+}
+
+.checkbox-group 
+{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] 
+{
+  margin: 0 2px;
+}
+
+.checkbox-group label 
+{
+  margin: 0 50px 0 0;
+}
+
+input[type="text"], input[type="email"], input[type="password"] 
+{
+  width: 95%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] 
+{
+  width: 100%;
+  height: 40px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover 
+{
+  background-color: #23527c;
+}
+
+/* Error Messages */
+
+.error 
+{
+  color: #f00;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Success Messages */
+
+.success 
+{
+  color: #0f0;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* About Page Styles */
+
+.about 
+{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.about ul 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about li 
+{
+  margin-bottom: 10px;
+}
+
+.about li::before 
+{
+  content: "\2022";
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+
